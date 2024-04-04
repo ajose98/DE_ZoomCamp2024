@@ -1,0 +1,35 @@
+# Docker compose file to create a network (pg-network) with 2 containers:
+# - postgres container
+# - pgadmin container to interact with the db in the other container
+
+services: 
+  pgdatabase: # name of the service
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=root 
+      - POSTGRES_PASSWORD=root 
+      - POSTGRES_DB=ny_taxi
+    volumes:
+      # rw at the end means permissions to read/write
+      - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+    ports:
+      - "5432:5432"
+    networks:
+      - pg-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=root
+    volumes: # to make sure we don't lose the configurationsm
+      - "./pgAdmin_data:/var/lib/pgadmin"
+    ports:
+      - 8080:80
+    networks:
+      - pg-network
+
+networks:
+  pg-network:
+    name: pg-network
+
