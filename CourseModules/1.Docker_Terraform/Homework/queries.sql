@@ -1,13 +1,6 @@
 /* Data used: 
 - https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2019-09.parquet
 - https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv
-
-Steps performed:
-1. Run the docker-compose file to initiate the container running the Postgres db and the container
-running pgAdmin
-2. Build a docker image to run the python script that ingests the data into the database
-3. Run the image mentioned in 2. 
-4. Open pgAdmin and run the queries
 */
 
 -- How many taxi trips were totally made on September 18th 2019?
