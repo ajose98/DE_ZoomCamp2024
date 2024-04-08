@@ -5,7 +5,7 @@ Below is a brief overview of what is covered in each part.
 ## (1) Docker & SQL
 - How to build an image and run containers
 - Create a .py file to insert data in a **Postgres DB** running in a container 
-- Use **pgcli** to access and run queries in a Postgres DB running in a container
+- Use **pgcli** to access and run queries in the Postgres DB
 - Run a container with **PgAdmin** (interface to interact with Postgres) and query the database using **SQL**
 - Use **Docker-Compose** to create multiple containers at once
 
