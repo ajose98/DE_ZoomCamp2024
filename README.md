@@ -2,7 +2,7 @@
 
 This repository will store the main files created throughout the [Data Engineering ZoomCamp](https://github.com/DataTalksClub/data-engineering-zoomcamp), delivered by [DataTalksClub](http://datatalks.club). I am doing it in a self-paced mode.
 
-This is a 10-week deep dive into data engineering, with hands-on learning, practical assignments and a final project. It is composed by a collection of videos that introduce some of the most used technologies for Data Engineering nowadays. The videos introduce some of the most used technologies for Data Engineering nowadays and guide us on how to use and perform tasks in these technologies. Some of the technologies covered are **Google Cloud Platform, Terraform, Docker, Big Query, dbt, Spark, SQL and Kafka**.
+This is a 10-week deep dive into data engineering, with hands-on learning, practical assignments and a final project. It is composed by a collection of videos that introduce some of the most used technologies for Data Engineering nowadays and guide us on how to use and perform tasks in these technologies. Some of the technologies covered are **Google Cloud Platform, Terraform, Docker, Big Query, dbt, Spark, SQL and Kafka**.
 
 There will be two folders in this repository: CourseModules and FinalProject (not initiated yet). 
 
