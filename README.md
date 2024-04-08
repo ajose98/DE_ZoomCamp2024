@@ -1,6 +1,6 @@
 # DE_ZoomCamp2024
 
-This repository will store the main files created throughout the Data Engineering ZoomCamp course, delivered by @DataTalksClub. I am doing it in a self-paced mode.
+This repository will store the main files created throughout the [Data Engineering ZoomCamp](https://github.com/DataTalksClub/data-engineering-zoomcamp), delivered by [DataTalksClub](http://datatalks.club). I am doing it in a self-paced mode.
 
 This is a very practical course which is composed by a collection of videos that introduce some of the most used technologies for Data Engineering nowadays. It includes step by step videos on how to use and perform tasks in these technologies and has homeworks at the end of each module to test what was learnt. Some of the technologies covered are **Google Cloud Platform, Terraform, Docker, Big Query, dbt, Spark, SQL and Kafka**.
 
