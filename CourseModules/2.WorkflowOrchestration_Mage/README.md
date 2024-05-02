@@ -1,9 +1,9 @@
-This module is about Workflow Orchestration and Mage is the tool used.
+This module is about Workflow Orchestration. **Mage** is the tool used.
 
 Below is a brief overview of what is covered.
 
 - Run Docker-Compose to create a container for Mage and one for Postgres
-- Create pipelines with Data Load, Transformer and Data Export blocks
+- Create pipelines with Data Load, Transformer and Data Export blocks using **Python**
 - Import data from an url & Export data to Postgres, Google Cloud Storage (GCS) and Amazon S3 (extra)
 - Export data in partitions to GCS (using Pyarrow library)
 - Create triggers to automate the run of a pipeline
