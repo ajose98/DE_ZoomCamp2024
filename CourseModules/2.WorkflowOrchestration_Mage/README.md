@@ -9,3 +9,5 @@ Below is a brief overview of what is covered.
 - Create triggers to automate the run of a pipeline
 
 The NYC taxi datasets were used (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Multiple datasets were concatenated into one and transformations such as data type conversion, renaming of columns (from Camel case to Snake case) and data filtering were performed.
+
+In this folder there is only the Homework folder because the files built during the module don't add much to the ones in the homework. Also, for simplicity, not all the files are listed, only the most important ones.
