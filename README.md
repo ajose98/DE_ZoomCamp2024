@@ -8,5 +8,5 @@ There will be two folders in this repository: CourseModules and FinalProject (no
 
 * In the CourseModules you will find the code files created while solving each of the modules and a folder called "Homework" that will store my code for the homework solution of the current module.
   
-<ins>When Google Cloud Platform (GCP) is used in the course, I decided to follow the steps using GCP but afterwards I went to find out how to do the exact same thing but using **Amazon Web Services (AWS)**</ins>. Both solutions can be found in the folder mentioned above. The files for AWS end with "_AWS", while the files used for GCP end with "_GCP".
+<ins>When Google Cloud Platform (GCP) is used in the course, I followed the steps using GCP but afterwards I tried to find out how to do the exact same thing but using **Amazon Web Services (AWS)**</ins>. The files for AWS end with "_AWS", while the files used for GCP end with "_GCP".
 * In the FinalProject you will find all the information and code on the final project.
