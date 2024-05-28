@@ -15,7 +15,7 @@ The model created can be seen below. The "fhv" related modules were built as par
 A data mart with information on the revenue per month, location and service type was created (dm_monthly_zone_revenue).
 ![image](https://github.com/ajose98/DE_ZoomCamp2024/assets/55530285/438b5479-fcb0-4557-a374-361094802d97)
 
-Dbt was directly connected to Git and in the folder "dbt_taxi_rides_ny" is saved all the work done.
+Dbt was directly connected to Git and in the folder "dbt_taxi_rides_ny" is saved all the work done in dbt.
 
 A dashboard showing some insights on fact_trips was created and its downloaded version can be seen [here](https://github.com/ajose98/DE_ZoomCamp2024/blob/main/CourseModules/4.%20AnalyticsEngineering_dbt/LookerStudio).
 
